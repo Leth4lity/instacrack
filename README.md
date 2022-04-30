@@ -5,6 +5,15 @@
 
 The Ultimate Instagram Account Cracker. 
 ---------------------------------------
-           by: Leth4lity
+
+Clone the repo.
+
+cd instacrack/
+
+chmod +x instacrack.sh
+
+./instacrack.sh
+
+---------------------------------------
             
            
