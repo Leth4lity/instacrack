@@ -11,8 +11,9 @@ cd instacrack/
 
 pip install requirements.txt
 
-bash getproxy.sh ----- The database needs to be filled with proxies so this is a program that retrieves HTTP SOCKS5 SOCKS4 proxy servers.
+chmod +x getproxy.sh
 
+bash getproxy.sh 
 
 python3 instacrack.py -u <account username here> -p <password list> -px proxy.txt 
 
