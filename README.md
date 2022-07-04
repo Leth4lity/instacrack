@@ -1,19 +1,19 @@
-# instacrack
+INSTACRACK
 
 
+The Ultimate Instagram Account Cracker
 
-
-The Ultimate Instagram Account Cracker. 
 ---------------------------------------
 
-Clone the repo.
+git clone https://github.com/Leth4lity/instacrack.git
 
 cd instacrack/
 
-chmod +x instacrack.sh
+pip install requirements.txt
 
-./instacrack.sh
+python3 instacrack.py -h
 
----------------------------------------
+
             
            
+![instacrack](https://user-images.githubusercontent.com/60785066/177172754-92fb0c03-03c0-4d4d-8353-4f446bcb13df.png)
