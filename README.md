@@ -1,7 +1,6 @@
-INSTACRACK
+<h1>INSTACRACK</h1>
 
-
-The Ultimate Instagram Account Cracker
+"The Ultimate Instagram Account Cracker."
 
 ---------------------------------------
 
@@ -13,11 +12,9 @@ pip install requirements.txt
 
 chmod +x getproxy.sh
 
-bash getproxy.sh 
+bash getproxy.sh && python3 instacrack.py -u <account username here> -p <password list> -px proxy.txt 
 
-python3 instacrack.py -u <account username here> -p <password list> -px proxy.txt 
-
-            
+<h2>Termux Installation</h2>          
            
 ![instacrack](https://user-images.githubusercontent.com/60785066/177172754-92fb0c03-03c0-4d4d-8353-4f446bcb13df.png)
 
