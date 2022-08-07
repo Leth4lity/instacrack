@@ -1,6 +1,6 @@
-# Date: 12/29/2018
-# Author: Mohamed
-# Description: Instagram bruter
+# Date: 08/07/2022
+# Author: Leth4lity (Laken Brion)
+# Description: Instagram Account Cracker
 
 # from lib.proxy import Proxy
 import os
@@ -30,7 +30,7 @@ class Engine(object):
 
     def get_user_resp(self):
         return self.display.prompt(
-            "Would you like to resume the attack? [y/N]: "
+            "Resume previous attack?: [y/N]: "
         )
 
     def write_to_file(self, password):
@@ -249,12 +249,12 @@ def main():
                 print("Invalid path to proxy list")
                 exit()
 
-            print(f"<<< Writing proxies to the database >>>")
+            print(f"Fueling the database with proxies via getproxy")
             time.sleep(0.65)
 
             total_written = ProxyManager().write2db(proxylist)
 
-            print(f"Proxies written to the database: {total_written}")
+            print(f"Total proxies in database: {total_written}")
             time.sleep(0.65)
 
         total_proxies = len(database.Proxy().get_proxies())
@@ -277,7 +277,7 @@ def main():
 if __name__ == "__main__":
 
     if int(python_version()[0]) < 3:
-        print("[!] Please use Python 3")
+        print("[!] Please use Python 3, stop with the Python2 programs. TY")
         exit()
 
     main()
