@@ -271,7 +271,7 @@ def main():
 
         else:
             if not proxylist or total_proxies == 0:
-                print("No proxies in the database and no proxy list provided")
+                print("Please generate proxys via getproxy.sh!")
 
 
 if __name__ == "__main__":
